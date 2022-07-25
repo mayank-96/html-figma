@@ -1,5 +1,5 @@
-import { Box, Button, NativeBaseProvider } from "native-base";
-import ButtonExample from "./ButtonExample";
+import { NativeBaseProvider } from "native-base";
+import ButtonExample from "./Components/ButtonExample";
 
 function App() {
   return (

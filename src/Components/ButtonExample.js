@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Button } from "native-base";
+import CheckboxExample from "./CheckboxExample";
 
 function ButtonExample() {
   return (
@@ -7,6 +8,7 @@ function ButtonExample() {
       <Button onPress={() => console.log("hello world")} bg="green.500">
         Click Me
       </Button>
+      <CheckboxExample />
     </Box>
   );
 }
